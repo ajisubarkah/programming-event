@@ -39,18 +39,18 @@ Keluarkan sebuah baris berisi total waktu yang dibutuhkan, dalam detik.
 Untuk contoh pertama, terdapat 1 kemungkinan pasangan murid yang akan tampil: satu-satunya murid
 kelas 6A dan satu-satunya murid kelas 6B. Total waktu yang dibutuhkan adalah 3 + 5 = 8 detik.
 Untuk contoh kedua, terdapat 4 kemungkinan pasangan murid yang akan tampil:
-• murid 1 kelas 6A dan murid 1 kelas 6B; total waktu = 1 + 3 = 4 detik
-• murid 1 kelas 6A dan murid 2 kelas 6B; total waktu = 1 + 4 = 5 detik
-• murid 2 kelas 6A dan murid 1 kelas 6B; total waktu = 2 + 3 = 5 detik
-• murid 2 kelas 6A dan murid 2 kelas 6B; total waktu = 2 + 4 = 6 detik
+- murid 1 kelas 6A dan murid 1 kelas 6B; total waktu = 1 + 3 = 4 detik
+- murid 1 kelas 6A dan murid 2 kelas 6B; total waktu = 1 + 4 = 5 detik
+- murid 2 kelas 6A dan murid 1 kelas 6B; total waktu = 2 + 3 = 5 detik
+- murid 2 kelas 6A dan murid 2 kelas 6B; total waktu = 2 + 4 = 6 detik
 Total waktu yang dibutuhkan adalah 4 + 5 + 5 + 6 = 20 detik
 
 ## Batasan
 Batasan yang berlaku untuk versi mudah dan versi sulit:
-• 1 ≤ A[i], B[i] ≤ 100
+- 1 ≤ A[i], B[i] ≤ 100
 
 Batasan khusus versi mudah:
-• N = 1
+- N = 1
 
 Batasan khusus versi sulit:
-• 1 ≤ N ≤ 100.000
+- 1 ≤ N ≤ 100.000

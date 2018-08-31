@@ -1,4 +1,6 @@
-# Hello World
+Hello World
+=======
+
 Repository ini merupakan kumpulan dari soal-soal dan latihan dari berbagai event pemrograman yang saya coba selesaikan dengan kemampuan saya sendiri. Disini saya menggunakan bahasa pemrogramman C++.
 
 Daftar Event : 
@@ -9,7 +11,7 @@ License
 
     The MIT License (MIT)
 
-    Copyright (c) 2018 
+    Copyright (c) 2018 Mr. Plankton
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

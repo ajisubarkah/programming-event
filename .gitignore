@@ -1,2 +1,7 @@
+# ignores setting vscode
+.vscode
+
+# ignores all executables file
 *.out
 *.exe
+*.app

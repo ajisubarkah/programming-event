@@ -52,12 +52,12 @@ lain yang diperbolehkan, misalnya PLLPPL.
 
 ## Batasan
 Batasan yang berlaku untuk versi mudah dan versi sulit:
-• 1 ≤ T ≤ 20
-• 1 ≤ B ≤ 1.000
-• 1 ≤ K ≤ B
+- 1 ≤ T ≤ 20
+- 1 ≤ B ≤ 1.000
+- 1 ≤ K ≤ B
 
 Batasan khusus versi mudah:
-• 0 ≤ A ≤ 1
+- 0 ≤ A ≤ 1
 
 Batasan khusus versi sulit:
-• 0 ≤ A ≤ 1.000
+- 0 ≤ A ≤ 1.000
