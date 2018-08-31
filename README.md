@@ -1,10 +1,15 @@
 Hello World
 =======
 
-Repository ini merupakan kumpulan dari soal-soal dan latihan dari berbagai event pemrograman yang saya coba selesaikan dengan kemampuan saya sendiri. Disini saya menggunakan bahasa pemrogramman C++.
+Repository ini merupakan kumpulan dari soal-soal dan latihan pemrograman.
 
-Daftar Event : 
-- [Gemastik][1]
+Daftar Pemrograman : 
+- [Code Signal][1]
+- [Gemastik][2]
+
+## Kontribusi
+
+Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas source code, memperbaiki bug dapat dilakukan dengan fork repository ini dan lakukan pull request atau dapat membuat issue.
 
 License
 =======
@@ -31,4 +36,5 @@ License
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-[1]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik
+[1]: https://github.com/ajisubarkah/programming-event/tree/master/CodeSignal
+[2]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik

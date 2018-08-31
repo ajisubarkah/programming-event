@@ -41,6 +41,6 @@ vector<string> easyVersion(int T, int A[], int B[], int K[])
     return printOutString;
 }
 
-string hardVersion(int T, int A[], int B[], int K[])
+vector<string> hardVersion(int T, int A[], int B[], int K[])
 {
 }
