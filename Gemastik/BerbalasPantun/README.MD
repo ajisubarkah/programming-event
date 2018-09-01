@@ -23,16 +23,28 @@ B[1] B[2] .. B[N]
 ## Format Keluaran
 Keluarkan sebuah baris berisi total waktu yang dibutuhkan, dalam detik.
 
-## Contoh Masukan
+## Contoh Masukan 1
 ```xml
 1
 3
 5
 ```
 
-## Contoh Keluaran
+## Contoh Keluaran 1
 ```xml
 8
+```
+
+## Contoh Masukan 2
+```xml
+2
+1 2
+3 4
+```
+
+## Contoh Keluaran 2
+```xml
+20
 ```
 
 ## Penjelasan
@@ -46,6 +58,9 @@ Untuk contoh kedua, terdapat 4 kemungkinan pasangan murid yang akan tampil:
 Total waktu yang dibutuhkan adalah 4 + 5 + 5 + 6 = 20 detik
 
 ## Batasan
+Batasan waktu : 1s
+Batasan memori : 64 MB
+
 Batasan yang berlaku untuk versi mudah dan versi sulit:
 - 1 ≤ A[i], B[i] ≤ 100
 

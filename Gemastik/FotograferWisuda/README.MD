@@ -51,6 +51,10 @@ lebih dari K = 2) teman laki-laki yang saling bersebelahan. Perhatikan bahwa ter
 lain yang diperbolehkan, misalnya PLLPPL.
 
 ## Batasan
+Batasan waktu : 1s
+
+Batasan memori : 64 MB
+
 Batasan yang berlaku untuk versi mudah dan versi sulit:
 - 1 ≤ T ≤ 20
 - 1 ≤ B ≤ 1.000

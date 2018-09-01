@@ -11,8 +11,7 @@ Daftar Pemrograman :
 
 Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas source code, memperbaiki bug dapat dilakukan dengan fork repository ini dan lakukan pull request atau dapat membuat issue.
 
-License
-=======
+## License
 
     The MIT License (MIT)
 
