@@ -9,7 +9,12 @@ Daftar Pemrograman :
 
 ## Kontribusi
 
-Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas source code, memperbaiki bug dapat dilakukan dengan fork repository ini dan lakukan pull request atau dapat membuat issue.
+Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas source code, memperbaiki bug dapat dilakukan dengan fork repository ini dan lakukan pull request atau dapat membuat [issues](https://github.com/ajisubarkah/programming-event/issues).
+
+## Requirements
+
+- c++11
+- [[tcframe](https://github.com/ia-toki/tcframe)] support Linux/MacOS. Windows is not supported. (Generate test cases of programming problems)
 
 ## License
 

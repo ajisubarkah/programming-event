@@ -5,3 +5,8 @@
 *.out
 *.exe
 *.app
+solution
+runner
+
+# ignores all executables directories
+tc/

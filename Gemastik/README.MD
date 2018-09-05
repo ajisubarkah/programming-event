@@ -1,12 +1,12 @@
 # GEMASTIK
 
 Gemastik 2017 ( Babak Penyisihan ) :
-A. [Berbalas Pantun][1]
-B. [Fotografer Wisuda][2]
-C. [Penulis Soal][3]
-D. [Saklar Lhompat II][4]
-E. [Pasangan Terbaik][5]
-F. [Rubrik Petakata][6]
+- [Berbalas Pantun][1]
+- [Fotografer Wisuda][2]
+- [Penulis Soal][3]
+- [Saklar Lhompat II][4]
+- [Pasangan Terbaik][5]
+- [Rubrik Petakata][6]
 
 [1]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbalasPantun
 [2]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/FotograferWisuda

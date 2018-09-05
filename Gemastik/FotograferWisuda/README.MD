@@ -44,11 +44,7 @@ LPPLPL
 ```
 
 ## Penjelasan
-Pada contoh kedua, satu-satunya barisan yang mungkin, PPPP, merupakan barisan yang tidak diperbolehkan
-karena terdapat 4 (yakni, lebih dari K = 3) teman perempuan yang bersebelahan.
-Pada contoh keempat, LLLPPP merupakan barisan yang tidak diperbolehkan karena terdapat 3 (yakni,
-lebih dari K = 2) teman laki-laki yang saling bersebelahan. Perhatikan bahwa terdapat beberapa barisan
-lain yang diperbolehkan, misalnya PLLPPL.
+Pada contoh kedua, satu-satunya barisan yang mungkin, PPPP, merupakan barisan yang tidak diperbolehkan karena terdapat 4 (yakni, lebih dari K = 3) teman perempuan yang bersebelahan. Pada contoh keempat, LLLPPP merupakan barisan yang tidak diperbolehkan karena terdapat 3 (yakni, lebih dari K = 2) teman laki-laki yang saling bersebelahan. Perhatikan bahwa terdapat beberapa barisan lain yang diperbolehkan, misalnya PLLPPL.
 
 ## Batasan
 Batasan waktu : 1s

@@ -11,7 +11,6 @@ int centuryFromYear(int year){
 
 main(){
     int year;
-    year = rand() % 2005 + 1;
-    cout << "Year : " << year << endl;
-    cout << "Century : " << centuryFromYear(year);
+    cin >> year;
+    cout << centuryFromYear(year) << endl;
 }

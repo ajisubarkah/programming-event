@@ -13,16 +13,16 @@ int adjacentElementsProduct(vector<int> inputArray) {
 }
 
 main(){
-    int length = rand() % 11 + 2;
+    int length;
     vector<int> inputArray;
 
+    cin >> length;
+    
+    int input;
     for(int i = 0; i < length; i++){
-        inputArray.push_back(rand() % 1001 + (-1000));
+        cin >> input;
+        inputArray.push_back(input);
     }
 
-    cout << "inputArray : [ ";
-    for(int n : inputArray) {
-        cout << n << " ";
-    }
-    cout << "] \n" << "Output : " << adjacentElementsProduct(inputArray);
+    cout << adjacentElementsProduct(inputArray) << endl;
 }

@@ -14,38 +14,32 @@ untuk berbalas pantun pada panggung.
 ## Format Masukan
 Masukan diberikan dalam format berikut ini:
 
-```xml
-N
-A[1] A[2] .. A[N]
-B[1] B[2] .. B[N]
-```
+    N
+    A[1] A[2] .. A[N]
+    B[1] B[2] .. B[N]
 
 ## Format Keluaran
 Keluarkan sebuah baris berisi total waktu yang dibutuhkan, dalam detik.
 
 ## Contoh Masukan 1
-```xml
-1
-3
-5
-```
+
+    1
+    3
+    5
 
 ## Contoh Keluaran 1
-```xml
-8
-```
+
+    8
 
 ## Contoh Masukan 2
-```xml
-2
-1 2
-3 4
-```
+
+    2
+    1 2
+    3 4
 
 ## Contoh Keluaran 2
-```xml
-20
-```
+
+    20
 
 ## Penjelasan
 Untuk contoh pertama, terdapat 1 kemungkinan pasangan murid yang akan tampil: satu-satunya murid
@@ -59,6 +53,7 @@ Total waktu yang dibutuhkan adalah 4 + 5 + 5 + 6 = 20 detik
 
 ## Batasan
 Batasan waktu : 1s
+
 Batasan memori : 64 MB
 
 Batasan yang berlaku untuk versi mudah dan versi sulit:

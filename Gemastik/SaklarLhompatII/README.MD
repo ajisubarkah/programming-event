@@ -49,59 +49,59 @@ yang harus menyambungkan ke stop kontak yang berbeda di antara kedua konfigurasi
 Baris pertama berisi sebuah bilangan bulat T yang menyatakan banyaknya kasus uji. Baris-baris berikut-
 nya berisi T kasus uji, yang masing-masing diberikan dalam format berikut ini:
 
-```xml
-R C N
-G[1][1] G[1][2] .. G[1][C]
-G[2][1] G[2][2] .. G[2][C]
-.
-.
-G[R][1] G[R][2] .. G[R][C]
-```
+    R C N
+    G[1][1] G[1][2] .. G[1][C]
+    G[2][1] G[2][2] .. G[2][C]
+    .
+    .
+    G[R][1] G[R][2] .. G[R][C]
 
 ## Format Keluaran
 Untuk setiap kasus uji, keluarkan jumlah dari tingkat kesemrawutan konfigurasi untuk seluruh
 kemungkinan konfigurasi teratur, modulo 1.000.000.007.
 
 ## Contoh Masukan
-```xml
-3
-3 1 1
-0
-3
--1
-4 2 1
-0 0
-3 1
--1 2
-9 8
-4 3 2
-0 0 0
-9 5 6
-7 6 7
--2 9 -1
-```
+
+    3
+    3 1 1
+    0
+    3
+    -1
+    4 2 1
+    0 0
+    3 1
+    -1 2
+    9 8
+    4 3 2
+    0 0 0
+    9 5 6
+    7 6 7
+    -2 9 -1
 
 ## Contoh Keluaran
-```xml
-9
-17
-60
-```
+
+    9
+    17
+    60
 
 ## Penjelasan
-Untuk contoh pertama, satu-satunya konfigurasi teratur yang mungkin adalah menyambungkan laptop
-mahasiswa 1 ke satu-satunya meja baris pertama. Hanya ada satu cara penyambungan yang mungkin,
-seperti yang ditunjukkan oleh gambar di bawah ini:
-![screen][1]
+Untuk contoh pertama, satu-satunya konfigurasi teratur yang mungkin adalah menyambungkan laptop mahasiswa 1 ke satu-satunya meja baris pertama. Hanya ada satu cara penyambungan yang mungkin, seperti yang ditunjukkan oleh gambar di bawah ini:
+
+[![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/saklarLhompatII-1.jpg)]
+
 Tingkat efisiensinya: 3 (banyaknya meja yang dilewati kabel) +|0 − 3| + |3 − 0| = 9. Ini juga merupakan
 tingkat kesemrawutan konfigurasi, karena ini merupakan satu-satunya penyambungan.
 Untuk contoh kedua, terdapat 2 konfigurasi teratur yang mungkin:
-![screen][2]
+
+[![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/saklarLhompatII-2.jpg)]
+
 - Tingkat kesemrawutan konfigurasi 1: 9
 - Tingkat kesemrawutan konfigurasi 2: 8
 Total tingkat kesemrawutannya adalah 9 + 8 = 17.
 Untuk contoh ketiga, terdapat 3 konfigurasi teratur yang mungkin:
-![screen][3]
+
+[![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/saklarLhompatII-3.jpg)]
+
 Tingkat kesemrawutan konfigurasi 1: max(20, 19) = 20
 - Tingkat kesemrawutan konfigurasi 2: max(20, 20) = 20
 - Tingkat kesemrawutan konfigurasi 3: max(19, 20) = 20
@@ -123,7 +123,3 @@ Batasan khusus versi mudah:
 - N =1
 Batasan khusus versi sulit:
 - 1 ≤ N ≤ C
-
-[1]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompatII/image-1.jpg
-[2]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompatII/image-2.jpg
-[3]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompatII/image-3.jpg
