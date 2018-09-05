@@ -14,7 +14,7 @@ Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas
 ## Requirements
 
 - c++11
-- [[tcframe](https://github.com/ia-toki/tcframe)] support Linux/MacOS. Windows is not supported. (Generate test cases of programming problems)
+- Framework [tcframe](https://github.com/ia-toki/tcframe) support Linux/MacOS. Windows is not supported. (Generate test cases of programming problems)
 
 ## License
 
