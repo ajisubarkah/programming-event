@@ -1,6 +1,6 @@
 # RUBRIK PETAKATA
 
-##Deskripsi
+## Deskripsi
 Petakata adalah sebuah rubrik teka-teki pada koran langganan Pak Chanek. Sebuah petakata terdiri
 atas petak-petak berukuran 2 baris dan N kolom. Setiap petak berisi sebuah huruf dari K huruf kecil
 pertama pada alfabet.
