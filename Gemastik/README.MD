@@ -1,9 +1,9 @@
 # GEMASTIK
 
 Gemastik 2017 ( Babak Penyisihan ) :
-- [Berbalas Pantun](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbalasPantun)
-- [Fotografer Wisuda]([https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/FotograferWisuda)
-- [Penulis Soal](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PenulisSoal)
+- [Berbalas Pantun](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbalasPantun) :heavy_check_mark:
+- [Fotografer Wisuda](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/FotograferWisuda)
+- [Penulis Soal](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PenulisSoal) :heavy_check_mark:
 - [Saklar Lhompat II](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompatII)
 - [Pasangan Terbaik](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PasanganTerbaik)
 - [Rubrik Petakata](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/RubrikPetakata)
