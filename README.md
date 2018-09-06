@@ -10,7 +10,7 @@ Daftar Pemrograman :
 ## Mainteners 
 
 - [![Mr. Plankton](https://avatars0.githubusercontent.com/u/32671397?s=32&v=4)Mr.Plankton](https://github.com/ajisubarkah)
-- [![Dewnan98](https://avatars0.githubusercontent.com/u/24721074?s=32&v=4)[Dewa Nanda]](https://github.com/dewnan98)
+- [![Dewnan98](https://avatars0.githubusercontent.com/u/24721074?s=32&v=4)Dewa Nanda](https://github.com/dewnan98)
 
 ## Kontribusi
 
