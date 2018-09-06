@@ -19,6 +19,14 @@ Gemastik 2017 ( Babak Final ) :
 - [Harta Kekayaan][14]
 - [Berbagi Lawakan][15]
 
+Gemastik 2016 ( Babak Penyisihan ) :
+- [Membangun Menara](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/MembangunMenara)
+- [Kode Keras]()
+- [Menggemaskan dan Cantik]()
+- [Saklar Lhompat]()
+- [Libur Tahun Baru]()
+- [Kartu Truf]()
+
 [1]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbalasPantun
 [2]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/FotograferWisuda
 [3]: https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PenulisSoal
