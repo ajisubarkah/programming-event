@@ -7,6 +7,11 @@ Daftar Pemrograman :
 - [Code Signal][1]
 - [Gemastik][2]
 
+## Mainteners 
+
+- [[Mr. Plankton](https://avatars0.githubusercontent.com/u/32671397?s=32&v=4)Mr.Plankton](https://github.com/ajisubarkah)
+- [[Dewnan98](https://avatars0.githubusercontent.com/u/24721074?s=32&v=4)[Dewa Nanda]](https://github.com/dewnan98)
+
 ## Kontribusi
 
 Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas source code, memperbaiki bug dapat dilakukan dengan fork repository ini dan lakukan pull request atau dapat membuat [issues](https://github.com/ajisubarkah/programming-event/issues).
