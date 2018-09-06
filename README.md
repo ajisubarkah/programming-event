@@ -9,8 +9,8 @@ Daftar Pemrograman :
 
 ## Mainteners 
 
-- [![Mr. Plankton](https://avatars0.githubusercontent.com/u/32671397?s=32&v=4)Mr.Plankton](https://github.com/ajisubarkah)
-- [![Dewnan98](https://avatars0.githubusercontent.com/u/24721074?s=32&v=4)Dewa Nanda](https://github.com/dewnan98)
+- [![Mr. Plankton](https://avatars0.githubusercontent.com/u/32671397?s=32&v=4) Aji Subarkah](https://github.com/ajisubarkah)
+- [![Dewnan98](https://avatars0.githubusercontent.com/u/24721074?s=32&v=4) Dewa Nanda](https://github.com/dewnan98)
 
 ## Kontribusi
 
@@ -25,7 +25,7 @@ Apabila ingin berkontribusi dalam menambahkan soal, pemecahan soal, memperingkas
 
     The MIT License (MIT)
 
-    Copyright (c) 2018 Mr. Plankton
+    Copyright (c) 2018
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
