@@ -1,64 +1,30 @@
-#include "BerbalasPantun.h"
+#include <iostream>
+#include <stdio.h>
 #include <cstdlib>
 
-void inputKasus(int chooser)
+using namespace std;
+
+int berbalasPantun(int N, int A[], int B[])
 {
-    int n;
-    cout << "N : ";
-    cin >> n;
-    int a[n], b[n];
-
-    for (int i = 0; i < n; i++)
+    int total = 0;
+    for (int i = 0; i < N; i++)
     {
-        a[i] = rand() % 100 + 1;
-        b[i] = rand() % 100 + 1;
+        for (int j = 0; j < N; j++)
+        {
+            total = total + (A[i] + B[i]);
+        }
     }
-
-    system("clear");
-
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d ", a[i]);
-    }
-
-    printf("\n");
-
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d ", b[i]);
-    }
-
-    printf("\n");
-
-    switch (chooser)
-    {
-    case 1:
-        printf("%d", easyVersion(n, a, b));
-        break;
-    case 2:
-        printf("%d", hardVersion(n, a, b));
-        break;
-    }
+    return total;
 }
 
-main()
+main()  
 {
-    int chooser;
-    printf("1. Easy Version\n2. Hard Version\nChoose : ");
+    int N;
+    cin >> N;
+    int A[N], B[N];
+    
+    for(int i = 0; i < N; i++) cin >> A[i];
+    for(int i = 0; i < N; i++) cin >> B[i];
 
-    cin >> chooser;
-
-    switch (chooser)
-    {
-    case 1:
-        printf("Batas Input :\n1. 1 ≤ A[i], B[i] ≤ 100\n2. N = 1\n");
-        inputKasus(chooser);
-        break;
-    case 2:
-        printf("Batas Input :\n1. 1 ≤ A[i], B[i] ≤ 100\n2. 1 ≤ N ≤ 100.000\n");
-        inputKasus(chooser);
-        break;
-    default:
-        printf("exit");
-    }
+    cout << berbalasPantun(N, A, B) << endl;
 }
