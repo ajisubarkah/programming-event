@@ -65,7 +65,7 @@ protected:
     void SampleTestCase3() {
         Subtasks({1, 2});
         Input({"1 3 3"});
-        Output({"LPPP"});
+        Output({"PLPP"});
     }
 
     void SampleTestCase4() {
@@ -73,7 +73,12 @@ protected:
         Input({"3 3 3"});
         Output({"LPPLPL"});
     }
-
+    
+    void SampleTestCase5() {
+        Subtasks({2});
+        Input({"6 4 1"});
+        Output({"LPLPLPLPLL"});
+    }
     // Exhaustive for small
     void TestGroup1() {
         Subtasks({1, 2});
