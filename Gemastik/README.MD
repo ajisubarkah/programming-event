@@ -5,7 +5,7 @@ Gemastik 2017 ( Babak Penyisihan ) :
 - [Fotografer Wisuda](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/FotograferWisuda)
 - [Penulis Soal](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PenulisSoal) :heavy_check_mark:
 - [Saklar Lhompat II](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompatII)
-- [Pasangan Terbaik](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PasanganTerbaik)
+- [Pasangan Terbaik](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PasanganTerbaik) :heavy_check_mark:
 - [Rubrik Petakata](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/RubrikPetakata)
 
 Gemastik 2017 ( Babak Final ) :
