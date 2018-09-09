@@ -20,7 +20,7 @@ Gemastik 2017 ( Babak Final ) :
 - [Berbagi Lawakan]()
 
 Gemastik 2016 ( Babak Penyisihan ) :
-- [Membangun Menara](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/MembangunMenara)
+- [Membangun Menara](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/MembangunMenara) :heavy_check_mark:
 - [Kode Keras](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/KodeKeras)
 - [Menggemaskan dan Cantik](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/MenggemaskanDanCantik)
 - [Saklar Lhompat](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SaklarLhompat)
