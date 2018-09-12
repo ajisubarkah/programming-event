@@ -104,33 +104,33 @@ Untuk contoh pertama, anggaran sebesar 7 satuan adalah anggaran minimum yang mun
 Berikut adalah ilustrasi penentuan sirkus yang sesuai dengan contoh keluaran (warna hijau menandakan
 sirkus yang ditentukan dalam anggaran minimum).
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-1.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-1.png)
 
 Perhatikan bahwa terdapat penganggaran yang tidak optimal yaitu jika kedua kota menggunakan sirkus
 lokal yang membutuhkan anggaran sebesar 19 satuan, seperti pada ilustrasi berikut.
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-2.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-2.png)
 
 Untuk contoh kedua, anggaran sebesar 3 satuan adalah anggaran minimum yang mungkin dicapai.
 Terdapat tepat dua penentuan sirkus yang menghasilkan anggaran minimum, yaitu sesuai dengan dua
 ilustrasi berikut.
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-3.png)
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-4.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-3.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-4.png)
 
 Berikut adalah contoh penentuan sirkus yang tidak optimal.
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-5.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-5.png)
 
 Untuk contoh ketiga, anggaran sebesar 3 satuan adalah anggaran minimum yang mungkin dicapai yaitu
 dengan tetap menggunakan sirkus lokal dari kedua kota.
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-6.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-6.png)
 
 Untuk contoh keempat, anggaran sebesar 4 satuan adalah anggaran minimum yang mungkin dicapai,
 yaitu dengan menggunakan sirkus keliling untuk pasangan kota 1 dan 2 serta pasangan kota 3 dan 4.
 
-![screen](https://github.com/ajisubarkah/programming-event/tree/master/src/sirkusKeliling-7.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/programming-event/master/src/sirkusKeliling-7.png)
 
 ## Batasan
 Batasan waktu : 2s
