@@ -11,13 +11,13 @@ Gemastik 2017 ( Babak Penyisihan ) :
 Gemastik 2017 ( Babak Final ) :
 - [Organisasi Kemahasiswaan](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/OrganisasiKemahasiswaan)
 - [Operasi Bitwise](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/OperasiBitwise)
-- [Sirkus Keliling](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/Sirkus Keliling)
-- [Kuis Data]()
-- [Pak Grandi]()
-- [Balon Poligon]()
-- [Juara Umum]()
-- [Harta Kekayaan]()
-- [Berbagi Lawakan]()
+- [Sirkus Keliling](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/SirkusKeliling)
+- [Kuis Data](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/KuisData)
+- [Pak Grandi](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/PakGrandi)
+- [Balon Poligon](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BalonPoligon)
+- [Juara Umum](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/JuaraUmum)
+- [Harta Kekayaan](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/HartaKekayaan)
+- [Berbagi Lawakan](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbagiLawakan)
 
 Gemastik 2016 ( Babak Penyisihan ) :
 - [Membangun Menara](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/MembangunMenara) :heavy_check_mark:
