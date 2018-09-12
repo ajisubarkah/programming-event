@@ -5,27 +5,34 @@
 
 using namespace std;
 
-void menggemaskanDanCantik(int n, string nama[], int g[], int c[])
+void menggemaskanDanCantik(int n, string nama[], int gemas[], int cantik[])
 {
-    int totalNilai, tempG, tempC;
-    string tempNama;
+    int best = 0, res = 0, a, b, c, d, e, f;
+    
     for(int i = 0; i < n; i++){
-        for(int j = i; j < n; j++){
-            if(g[i] < g[j] && g[j] >= c[j]){
-                swap(g[i],g[j]);
-                swap(c[i],c[j]);
-                swap(nama[i],nama[j]);
-            }
-            else if(c[i] < c[j] && c[j] >= g[j]){
-                swap(g[i],g[j]);
-                swap(c[i],c[j]);
-                swap(nama[i],nama[j]);
+        for(int j = 0; j < n; j++){
+            for(int k = 0; k < n; k++){
+                for(int x = 0; x < n; x++){
+                    for(int y = 0; y < n; y++){
+                        for(int z = 0; z < n; z++){
+                            if(!(i == j || i == k || i == x || i == y || i == z || j == k || j == x || j == y || j == z
+                            || k == x || k == y || k == z || x == y || x == z || y == z)){
+                                res = (gemas[i] * gemas[j] * gemas[k]) + (cantik[x] * cantik[y] * cantik[z]);
+                                if(res > best){
+                                    best = res;
+                                    a = i; b = j; c = k; d = x; e = y; f = z;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
-    for(int i = 0; i < n; i++){
-        cout << nama[i] << " " << g[i] << " " << c[i] << endl;
-    }
+
+    cout << best << endl;
+    cout << nama[a] << " " << nama[b] << " " << nama[c] << endl;
+    cout << nama[d] << " " << nama[e] << " " << nama[f] << endl;
 }
 
 main()
@@ -38,11 +45,11 @@ main()
         cin >> n;
         string nama[n];
         int g[n], c[n];
-        for (int i = 0; i < n; i++)
-        {
+        
+        for (int i = 0; i < n; i++) {
             cin >> nama[i] >> g[i] >> c[i];
         }
+
         menggemaskanDanCantik(n, nama, g, c);
-        //cout << result[0] << endl << result[1] << endl << result[2] << endl;
     }
 }
