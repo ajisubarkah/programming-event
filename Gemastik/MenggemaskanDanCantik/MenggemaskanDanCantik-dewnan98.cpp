@@ -109,7 +109,7 @@ main ()
                 return lhs.cantik > rhs.cantik;
             });
 
-//            cout<<"Berhasil sorting";
+//           cout<<"Berhasil sorting";
 
 //            cout<<"MAX GEMAS : "<<maxG<<endl;
 //            cout<<"MAX CANTK : "<<maxC<<endl;
