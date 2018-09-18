@@ -56,6 +56,5 @@ main()
     cout<<fotograferWisuda(3,3,3)<<endl;
     cout<<fotograferWisuda(5,8,2)<<endl;
     cout<<fotograferWisuda(5,6,1)<<endl;
-    cout<<fotograferWisuda(6,4,1)<<endl;
     cout<<fotograferWisuda(12,12,1)<<endl;
 }
