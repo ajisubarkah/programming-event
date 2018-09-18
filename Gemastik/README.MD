@@ -1,9 +1,9 @@
 # GEMASTIK
 
 Gemastik 2018 ( Babak Pemanasan ) :
-- [Urutan Aneh](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/UrutanAneh)
-- [Pohon](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/Pohon)
-- [Pertandingan](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/Pertandingan)
+- [Urutan Aneh](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/UrutanAneh) :heavy_check_mark:
+- [Pohon](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/Pohon) :heavy_check_mark:
+- [Pertandingan](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/Pertandingan) :heavy_check_mark:
 
 Gemastik 2017 ( Babak Penyisihan ) :
 - [Berbalas Pantun](https://github.com/ajisubarkah/programming-event/tree/master/Gemastik/BerbalasPantun) :heavy_check_mark:
