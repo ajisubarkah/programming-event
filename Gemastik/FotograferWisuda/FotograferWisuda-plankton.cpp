@@ -11,22 +11,16 @@ string fotogragerWisuda(int A, int B, int K)
     if (A / (B + 1) > 2 || K < B / (A + 1))
     {
         return "mustahil";
-    }
-    else
-    {
+    } else {
         int total = A + B;
         int countA = 0, countB = 0;
-        while (total--)
-        {
-            if (A > 0 && countA <= 2 && A > B || countB == K)
-            {
+        while (total--) {
+            if (A > 0 && countA < 2 && A > B || countB == K) {
                 tempString += "L";
                 A--;
                 countA++;
                 countB = 0;
-            }
-            else
-            {
+            } else {
                 tempString += "P";
                 B--;
                 countB++;

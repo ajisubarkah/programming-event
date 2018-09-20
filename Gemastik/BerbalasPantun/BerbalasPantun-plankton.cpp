@@ -8,17 +8,19 @@ main()
 {
     int N;
     cin >> N;
-    int A[N], B[N];
 
-    long total = 0;
+    int A,B;
+    long long tempA, tempB;
 
-    for(int i = 0; i < N; i++) cin >> A[i];
+    for(int i = 0; i < N; i++){
+        cin >> A;
+        tempA += A;
+    }
     
     for(int i = 0; i < N; i++){ 
-        cin >> B[i];
-        for(int j = 0; j < N; j++)
-            total += B[i] + A[j];
+        cin >> B;
+        tempB += B;
     }
 
-    cout << total << endl;
+    cout << (tempA * N) + (tempB * N) << endl;
 }
