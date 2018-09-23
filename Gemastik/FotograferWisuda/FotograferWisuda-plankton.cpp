@@ -4,12 +4,11 @@
 
 using namespace std;
 
-string fotogragerWisuda(int A, int B, int K)
-{
+string fotogragerWisuda(int A, int B, int K) {
+    
     string tempString = "";
 
-    if (A / (B + 1) > 2 || K < B / (A + 1))
-    {
+    if (A / (B + 1) > 2 || K < B / (A + 1)) {
         return "mustahil";
     } else {
         int total = A + B;
@@ -28,15 +27,17 @@ string fotogragerWisuda(int A, int B, int K)
             }
         }
     }
+    
     return tempString;
 }
 
-main()
-{
+main() {
+
     int T, A, B, K;
+
     cin >> T;
-    for (int i = 0; i < T; i++)
-    {
+
+    for (int i = 0; i < T; i++) {
         cin >> A >> B >> K;
         cout << fotogragerWisuda(A, B, K) << endl;
     }
