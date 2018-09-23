@@ -7,21 +7,19 @@ using namespace std;
 
 class Mahasiswa
 {
-public :
-
+  public:
     string nama;
     int gemas;
     int cantik;
 
-    Mahasiswa(string nama , int gemas , int cantik)
+    Mahasiswa(string nama, int gemas, int cantik)
     {
         this->nama = nama;
         this->gemas = gemas;
         this->cantik = cantik;
-
     }
-private :
 
+  private:
 };
 
 //void menggemaskanDanCantik2(vector <Mahasiswa> m)
@@ -50,23 +48,35 @@ private :
 //    cout<<nama[3]<< " " <<nama[4]<< " " <<nama[5]<<endl;
 //}
 
-void menggemaskanDanCantik(vector <Mahasiswa> m)
+void menggemaskanDanCantik(vector<Mahasiswa> m)
 {
     long long best = 0, a, b, c, d, e, f;
     long long res;
-       int n=m.size();
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            for(int k = 0; k < n; k++){
-                for(int x = 0; x < n; x++){
-                    for(int y = 0; y < n; y++){
-                        for(int z = 0; z < n; z++){
-                             if(!(i == j || i == k || i == x || i == y || i == z || j == k || j == x || j == y || j == z
-                            || k == x || k == y || k == z || x == y || x == z || y == z)){
+    int n = m.size();
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            for (int k = 0; k < n; k++)
+            {
+                for (int x = 0; x < n; x++)
+                {
+                    for (int y = 0; y < n; y++)
+                    {
+                        for (int z = 0; z < n; z++)
+                        {
+                            if (!(i == j || i == k || i == x || i == y || i == z || j == k || j == x || j == y || j == z || k == x || k == y || k == z || x == y || x == z || y == z))
+                            {
                                 res = (m[i].gemas * m[j].gemas * m[k].gemas) + (m[x].cantik * m[y].cantik * m[z].cantik);
-                                if(res > best){
+                                if (res > best)
+                                {
                                     best = res;
-                                    a = i; b = j; c = k; d = x; e = y; f = z;
+                                    a = i;
+                                    b = j;
+                                    c = k;
+                                    d = x;
+                                    e = y;
+                                    f = z;
                                 }
                             }
                         }
@@ -81,92 +91,81 @@ void menggemaskanDanCantik(vector <Mahasiswa> m)
     cout << m[d].nama << " " << m[e].nama << " " << m[f].nama << endl;
 }
 
-main ()
+main()
 {
 
     int t;
-    cin>>t;
+    cin >> t;
 
-
-
-    vector <int> hasil;
-    while(t--)
+    vector<int> hasil;
+    while (t--)
     {
         int n;
-        cin>>n;
+        cin >> n;
 
-
-        vector <Mahasiswa> mahasiswa;
+        vector<Mahasiswa> mahasiswa;
         //input
-        while(n--)
+        while (n--)
         {
-            string nama ;
+            string nama;
 
             int gemas, cantik;
-            cin>>nama>>gemas>>cantik;
-            mahasiswa.push_back( Mahasiswa(nama,gemas,cantik));
+            cin >> nama >> gemas >> cantik;
+            mahasiswa.push_back(Mahasiswa(nama, gemas, cantik));
         }
 
-       // clock_t tStart = clock();
+        // clock_t tStart = clock();
 
-          vector <Mahasiswa>mahasiswa2 = mahasiswa;
-       //   vector <Mahasiswa>copyOfMahasiswa = mahasiswa;
-            std::sort(mahasiswa.begin(),
-                      mahasiswa.end(),
-                      [](const Mahasiswa& lhs, const Mahasiswa& rhs)
-            {
-                return lhs.gemas > rhs.gemas;
-            });
+        vector<Mahasiswa> mahasiswa2 = mahasiswa;
+        //   vector <Mahasiswa>copyOfMahasiswa = mahasiswa;
+        std::sort(mahasiswa.begin(),
+                  mahasiswa.end(),
+                  [](const Mahasiswa &lhs, const Mahasiswa &rhs) {
+                      return lhs.gemas > rhs.gemas;
+                  });
 
-            std::sort(mahasiswa2.begin(),
-                      mahasiswa2.end(),
-                      [](const Mahasiswa& lhs, const Mahasiswa& rhs)
-            {
-                return lhs.cantik > rhs.cantik;
-            });
+        std::sort(mahasiswa2.begin(),
+                  mahasiswa2.end(),
+                  [](const Mahasiswa &lhs, const Mahasiswa &rhs) {
+                      return lhs.cantik > rhs.cantik;
+                  });
 
-    vector<Mahasiswa> mhs;
+        vector<Mahasiswa> mhs;
 
-
-    for (int a = 0 ;a<6;a++)
-    {
-       bool same = false;
-        for(int b= 0; b<mhs.size();b++)
+        for (int a = 0; a < 6; a++)
         {
-            if(mahasiswa[a].nama==mhs[b].nama)
+            bool same = false;
+            for (int b = 0; b < mhs.size(); b++)
             {
-                same = true;
-                break;
+                if (mahasiswa[a].nama == mhs[b].nama)
+                {
+                    same = true;
+                    break;
+                }
+            }
+            if (!same)
+            {
+
+                mhs.push_back(mahasiswa[a]);
             }
         }
-        if(!same)
+        for (int a = 0; a < 6; a++)
         {
-
-
-            mhs.push_back(mahasiswa[a]);
-
-        }
-
-    }
-    for (int a = 0 ;a<6;a++)
-    {
-       bool same = false;
-        for(int b= 0; b<mhs.size();b++)
-        {
-            if(mahasiswa2[a].nama==mhs[b].nama)
+            bool same = false;
+            for (int b = 0; b < mhs.size(); b++)
             {
-                same = true;
-                break;
+                if (mahasiswa2[a].nama == mhs[b].nama)
+                {
+                    same = true;
+                    break;
+                }
+            }
+            if (!same)
+            {
+                mhs.push_back(mahasiswa2[a]);
             }
         }
-        if(!same)
-        {
-            mhs.push_back(mahasiswa2[a]);
-         }
+
+        menggemaskanDanCantik(mhs);
     }
-
-    menggemaskanDanCantik(mhs);
-
-    }
-
 }
